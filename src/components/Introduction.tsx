@@ -43,11 +43,11 @@ export function Introduction() {
           <ol className="space-y-4">
             <li>
               <p>
-                <strong>Transparency and Trust:</strong> Open source software's
-                code is accessible to everyone, allowing users to review,
-                modify, and enhance it. This transparency fosters trust as it
-                ensures there are no hidden functionalities or vulnerabilities
-                that could compromise security.
+                <strong>Transparency and Trust:</strong> Open source
+                software&apos;s code is accessible to everyone, allowing users
+                to review, modify, and enhance it. This transparency fosters
+                trust as it ensures there are no hidden functionalities or
+                vulnerabilities that could compromise security.
               </p>
             </li>
             <li>
