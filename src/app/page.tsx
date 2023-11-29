@@ -51,7 +51,9 @@ export default function Home() {
       <FreeChapters />
       <Pricing />
       <Testimonials />
+
        */}
+
       <Author />
       <Footer />
     </>

@@ -10,7 +10,10 @@ export function Footer() {
         href="https://github.com/peerrich/ossacc"
         className="relative text-center text-sm text-slate-600"
       >
-        <p>MIT &copy; {new Date().getFullYear()} oss/acc</p>
+        <p>
+          MIT &copy; {new Date().getFullYear()} oss/acc –{' '}
+          <a href="https://github.com/PeerRich/ossacc">Source Code on GitHub</a>
+        </p>
       </a>
     </footer>
   )

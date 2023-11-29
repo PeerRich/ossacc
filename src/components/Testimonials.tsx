@@ -20,10 +20,9 @@ import avatarImage11 from '@/images/avatars/avatar-11.png'
 const testimonials = [
   [
     {
-      content:
-        'Mira’s teaching style is second to none. Everything was easy to follow every step of the way.',
+      content: 'Heck yea! A movement I can 100% stand for.',
       author: {
-        name: 'Antonio Littel',
+        name: 'Carlos Virreira — oss/acc',
         role: 'Frontend Developer',
         image: avatarImage3,
       },
@@ -145,16 +144,6 @@ function Testimonial({
 export function Testimonials() {
   return (
     <section className="py-8 sm:py-10 lg:py-16">
-      <Container className="text-center">
-        <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          Some kind words from early customers...
-        </h2>
-        <p className="mt-4 text-lg tracking-tight text-slate-600">
-          I worked with a small group of early access customers to make sure all
-          of the content in the book was exactly what they needed. Hears what
-          they had to say about the finished product.
-        </p>
-      </Container>
       <Expandable className="group mt-16">
         <ul
           role="list"

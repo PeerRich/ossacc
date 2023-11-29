@@ -123,7 +123,16 @@ export function Introduction() {
           more secure, equitable, and prosperous world for all.
         </p>
         <p className="mt-8">
-          Join the open source movement and sign the manifesto.
+          Join the open source movement and sign the manifesto or{' '}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-base font-medium text-blue-600 hover:text-blue-800"
+            href="https://twitter.com/search?q=I've%20signed%20the%20http://ossacc.com%20open%20source%20acceleration%20manifesto%20and%20you%20should%20do%20to!&src=typed_query"
+          >
+            see who already has signed it
+          </a>
+          .
         </p>
         <p className="mt-10">
           <Link
