@@ -17,9 +17,9 @@ const calSans = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'Everything Starts as a Square - Get lost in the world of icon design',
+  title: 'oss/acc',
   description:
-    'A book and video course that teaches you how to design your own icons from scratch.',
+    'Everything is build with Open Source. The modern world we live in today would simply not exist.',
 }
 
 export default function RootLayout({
