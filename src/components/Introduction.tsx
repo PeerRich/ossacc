@@ -127,7 +127,7 @@ export function Introduction() {
         </p>
         <p className="mt-10">
           <Link
-            href="#free-chapters"
+            href="https://twitter.com/intent/tweet?text=I've%20signed%20the%20ossacc.com%20open%20source%20acceleration%20manifesto%20and%20you%20should%20do%20to!"
             className="text-base font-medium text-blue-600 hover:text-blue-800"
           >
             Share on x.com
