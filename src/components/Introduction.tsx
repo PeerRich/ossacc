@@ -11,16 +11,18 @@ export function Introduction() {
       className="pb-16 pt-20 sm:pb-20 md:pt-36 lg:py-32"
     >
       <Container className="text-lg tracking-tight text-slate-700">
-        <p className="max-w-lg font-display text-4xl font-bold tracking-tight text-slate-900">
-          Everything is built with Open Source. The modern world we live in
-          today would simply not exist.
+        <p className="max-w-3xl font-display text-4xl font-bold tracking-tight text-slate-900">
+          Open Source: The invisible architect of our modern world
         </p>
         <p className="mt-4">
-          As we accelerate into the future, we need to make sure that we
-          continue building open systems that impact our day to day lives,
-          especially when it comes to advanced AI and AGI.
+          As we accelerate into a future dominated by machines and artificial
+          intelligence, we need to ensure that the systems human civilization
+          relies on are secure, reliable, and aligned with our values. There is
+          only one way to do this at scale: <strong>Open Source.</strong>
         </p>
-        <p className="mt-4">We need oss/acc.</p>
+        <p className="mt-4">
+          That&apos;s why we need Open Source Accelerationism - <strong>oss/acc.</strong>
+        </p>
 
         <ul role="list" className="mt-8 space-y-3">
           {[
