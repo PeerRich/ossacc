@@ -42,10 +42,9 @@ export function Author() {
               source, open heart, open mind.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              I’ve started my career back with Open Source in 2013 with
-              Wordpress and I’ll do everything in my power to create an Open
-              Future with Cal.com and all other Open Source ventures that I am
-              involved in.
+              I’ve started my career in Open Source back in 2013 with Wordpress
+              and I’ll do everything in my power to create an Open Future with
+              Cal.com and all other Open Source ventures that I am involved in.
             </p>
             <p className="mt-8">
               <Link
