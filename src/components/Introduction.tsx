@@ -12,7 +12,7 @@ export function Introduction() {
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <p className="max-w-lg font-display text-4xl font-bold tracking-tight text-slate-900">
-          Everything is build with Open Source. The modern world we live in
+          Everything is built with Open Source. The modern world we live in
           today would simply not exist.
         </p>
         <p className="mt-4">
