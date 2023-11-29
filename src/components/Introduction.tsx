@@ -128,7 +128,7 @@ export function Introduction() {
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:text-blue-800"
-            href="https://twitter.com/search?q=I've%20signed%20the%20http://ossacc.com%20open%20source%20acceleration%20manifesto%20and%20you%20should%20do%20to!&src=typed_query"
+            href="https://twitter.com/search?q=I've%20signed%20the%20http://ossacc.com%20open%20source%20acceleration%20manifesto%20and%20you%20should%20do%20it%20too!&src=typed_query"
           >
             see who already has signed it
           </a>
@@ -136,7 +136,7 @@ export function Introduction() {
         </p>
         <p className="mt-10">
           <Link
-            href="https://twitter.com/intent/tweet?text=I've%20signed%20the%20ossacc.com%20open%20source%20acceleration%20manifesto%20and%20you%20should%20do%20to!"
+            href="https://twitter.com/intent/tweet?text=I've%20signed%20the%20ossacc.com%20open%20source%20acceleration%20manifesto%20and%20you%20should%20do%20it%20too!"
             className="text-base font-medium text-blue-600 hover:text-blue-800"
           >
             Share on x.com
