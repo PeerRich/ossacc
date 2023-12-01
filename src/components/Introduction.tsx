@@ -11,7 +11,7 @@ export function Introduction() {
       className="pb-16 pt-20 sm:pb-20 md:pt-36 lg:py-32"
     >
       <Container className="text-lg tracking-tight text-slate-700">
-        <p className="max-w-lg font-display text-4xl font-bold tracking-tight text-slate-900">
+        <p className="max-w-lg font-display text-4xl text-slate-900">
           Everything is built with Open Source. The modern world we live in
           today would simply not exist.
         </p>
@@ -137,9 +137,9 @@ export function Introduction() {
         <p className="mt-10">
           <Link
             href="https://twitter.com/intent/tweet?text=I've%20signed%20the%20ossacc.com%20open%20source%20acceleration%20manifesto%20and%20you%20should%20do%20it%20too!"
-            className="text-base font-medium text-blue-600 hover:text-blue-800"
+            className="text-blue-600 hover:text-blue-800"
           >
-            Share on x.com
+            Sign and share on x.com
             <span aria-hidden="true">&rarr;</span>
           </Link>
         </p>
