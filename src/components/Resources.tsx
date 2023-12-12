@@ -6,12 +6,18 @@ import abstractBackgroundImage from '@/images/resources/abstract-background.png'
 import discordImage from '@/images/resources/discord.svg'
 import figmaImage from '@/images/resources/figma.svg'
 import videoPlayerImage from '@/images/resources/video-player.svg'
+import { Button } from './Button'
 
 const resources = [
   {
-    title: 'Figma icon templates',
+    title: 'Explore and Contribute',
     description:
-      'Pefectly structured templates for quickly designing new icons at dozens of common sizes.',
+      'Discover exciting open source projects, contribute or apply for a job!',
+    button: (
+      <Button variant="outline" href="/friends">
+        Discover Open Source
+      </Button>
+    ),
     image: function FigmaImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
@@ -21,9 +27,14 @@ const resources = [
     },
   },
   {
-    title: 'Weekly icon teardowns',
+    title: 'Start a COSS',
     description:
-      'Weekly videos where we dissect and recreate beautiful icons we find on the web.',
+      'COSS stands for commercial open source software. If you want to build a company to sustain your project',
+    button: (
+      <Button variant="outline" href="https://oss.capital">
+        Apply for Funding
+      </Button>
+    ),
     image: function VideoPlayerImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center">
@@ -44,9 +55,31 @@ const resources = [
     },
   },
   {
-    title: 'Community of icon designers',
+    title: 'Participate in OSSHack',
     description:
-      "A private Discord server where you can get help and give feedback on each others' work.",
+      'OSSHack.com is the largest in-person and remote Open Source-first hackathon.',
+    button: (
+      <Button variant="outline" href="https://osshack.com">
+        Visit OSSHack.com
+      </Button>
+    ),
+    image: function DiscordImage() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center bg-[#6366F1]">
+          <Image src={discordImage} alt="" unoptimized />
+        </div>
+      )
+    },
+  },
+  {
+    title: 'Join a Community',
+    description:
+      'Join our Discord server that promote oss/acc, COSS and Open Source',
+    button: (
+      <Button variant="outline" href="https://discord.com">
+        Join Discord
+      </Button>
+    ),
     image: function DiscordImage() {
       return (
         <div className="absolute inset-0 flex items-center justify-center bg-[#6366F1]">
@@ -66,11 +99,11 @@ export function Resources() {
     >
       <Container>
         <SectionHeading number="3" id="resources-title">
-          Resources
+          Get Involved
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Tools and resources you can use to get started even faster and
-          progress even further.
+          If you want to do more than just signing a pledge, here is how you can
+          promote the mission
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           Design assets, icon teardowns, and a community of fellow icon
@@ -81,7 +114,7 @@ export function Resources() {
       <Container size="lg" className="mt-16">
         <ol
           role="list"
-          className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-3 lg:text-center xl:-mx-12 xl:divide-x xl:divide-slate-400/20"
+          className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-4 lg:text-center xl:-mx-12 xl:divide-x xl:divide-slate-400/20"
         >
           {resources.map((resource) => (
             <li
@@ -95,9 +128,10 @@ export function Resources() {
                 <h3 className="text-base font-medium tracking-tight text-slate-900">
                   {resource.title}
                 </h3>
-                <p className="mt-2 text-sm text-slate-600">
+                <p className="mb-4 mt-2 text-sm text-slate-600">
                   {resource.description}
                 </p>
+                {resource.button && resource.button}
               </div>
             </li>
           ))}

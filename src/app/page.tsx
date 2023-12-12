@@ -1,6 +1,7 @@
 import { Author } from '@/components/Author'
 import { Footer } from '@/components/Footer'
 import { FreeChapters } from '@/components/FreeChapters'
+import Friends from '@/components/Friends'
 import { Hero } from '@/components/Hero'
 import { Introduction } from '@/components/Introduction'
 import { NavBar } from '@/components/NavBar'
@@ -18,8 +19,10 @@ export default function Home() {
     <>
       {/* <Hero /> */}
       <Introduction />
-      {/* <NavBar /> */}
-      {/* <TableOfContents /> */}
+      <NavBar />
+      <TableOfContents />
+      {/* */}
+      {/*  */}
       {/* <Testimonial
         id="testimonial-from-tommy-stroman"
         author={{
@@ -47,14 +50,14 @@ export default function Home() {
           frustrated and gave up. Now I sell my own custom icon sets online.”
         </p>
       </Testimonial>
-      <Resources />
       <FreeChapters />
       <Pricing />
+      <Friends /> */}
       <Testimonials />
 
-       */}
-
-      <Author />
+      <Resources />
+      {/* 
+      <Author /> */}
       <Footer />
     </>
   )
