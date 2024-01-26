@@ -1,6 +1,6 @@
 import { Button } from './Button'
 
-export default function Friends() {
+export default async function Friends() {
   const res = await fetch('https://formbricks.com/api/oss-friends')
   const resJson = await res.json()
   const friends = resJson.data.filter((item: any) => item.name !== 'Cal.com')
