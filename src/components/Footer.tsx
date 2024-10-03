@@ -11,7 +11,7 @@ export function Footer() {
         className="relative text-center text-sm text-slate-600"
       >
         <p>
-          MIT &copy; {new Date().getFullYear()} oss/acc – Source Code on GitHub
+          {new Date().getFullYear()} oss/acc – Source Code on GitHub
         </p>
       </a>
     </footer>
